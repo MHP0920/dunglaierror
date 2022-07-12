@@ -5,7 +5,7 @@
 ## Documentation
 
 ### Setup
-> pip install dunglaierror
+> pip install dunglaierrors
 
 *hoặc*
 
@@ -24,14 +24,14 @@
 #### Khởi động thư viện
 
 ```py
-import dunglaierror
-dunglaierror.init()
+import dunglaierrors
+dunglaierrors.init()
 ```
 
 #### Class tài liệu
 
 ```py
-documents = dunglaierror.Docs()
+documents = dunglaierrors.Docs()
 ```
 
 Tài liệu về chuyển đổi tiền tệ
@@ -63,7 +63,7 @@ documents.keylogger()
 Class kiểm tra
 
 ```py
-checker = dunglaierror.Check()
+checker = dunglaierrors.Check()
 ```
 
 Kiểm tra mã đổi USD sang VND
