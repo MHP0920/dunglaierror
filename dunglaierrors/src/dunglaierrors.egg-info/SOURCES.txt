@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dunglaierrors/src/dunglaierrors.egg-info/PKG-INFO
+dunglaierrors/src/dunglaierrors.egg-info/SOURCES.txt
+dunglaierrors/src/dunglaierrors.egg-info/dependency_links.txt
+dunglaierrors/src/dunglaierrors.egg-info/requires.txt
+dunglaierrors/src/dunglaierrors.egg-info/top_level.txt
+dunglaierrors/src/dunglaierrors.py
+dunglaierrors/src/dunglaierrors.egg-info/SOURCES.txt
