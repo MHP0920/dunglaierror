@@ -5,7 +5,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setuptools.setup(
     name="dunglaierrors",                     # This is the name of the package
-    version="0.0.1",                        # The initial release version
+    version="0.0.6",                        # The initial release version
     author="MHP",                     # Full name of the author
     author_email='admin@hieudeeptry.ml',
     keywords=['dunglai', 'error', 'python', 'python3'],
@@ -21,7 +21,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],                                      # Information to filter the project on PyPi website
     python_requires='>=3.6',                # Minimum version requirement of the package
-    py_modules=["dunglaierrors"],             # Name of the python package
-    package_dir={'':'dunglaierrors/src'},     # Directory of the source code of the package
-    install_requires=['colorama']                     # Install other dependencies if any
+    install_requires=['colorama'],                     # Install other dependencies if any
+
 )
