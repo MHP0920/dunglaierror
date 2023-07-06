@@ -5,7 +5,7 @@ with open("README.md", "r", encoding='utf-8') as fh:
 
 setuptools.setup(
     name="dunglaierrors",                     # This is the name of the package
-    version="0.0.6",                        # The initial release version
+    version="0.0.7",                        # The initial release version
     author="MHP",                     # Full name of the author
     author_email='admin@hieudeeptry.ml',
     keywords=['dunglai', 'error', 'python', 'python3'],
