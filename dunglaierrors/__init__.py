@@ -27,14 +27,14 @@ class Docs:
         Thông tin về cách chuyển đổi tiền tệ (Vd: USD -> VND)
         '''
         _1 = colorama.Fore.LIGHTGREEN_EX + '-'*20 + ' ' + 'Cách chuyển đổi tiền tệ (Vd: USD -> VND)' + ' ' + '-'*20 + colorama.Fore.RESET
-        _2 = colorama.Fore.LIGHTCYAN_EX + '1. Xác định tỉ giá USD/VND, 1 USD = 23.000 VND' + colorama.Fore.RESET
+        _2 = colorama.Fore.LIGHTCYAN_EX + '1. Xác định tỉ giá USD/VND, 1 USD = 22.000 VND' + colorama.Fore.RESET
         _3 = colorama.Fore.LIGHTCYAN_EX + '2. Tính tổng tiền cần chuyển đổi' + colorama.Fore.RESET
         _4 = colorama.Fore.LIGHTCYAN_EX + '3. Tính tổng tiền sau khi chuyển đổi' + colorama.Fore.RESET
         _5 = colorama.Fore.LIGHTCYAN_EX + '4. Hiển thị kết quả' + colorama.Fore.RESET
         _7 = colorama.Fore.LIGHTGREEN_EX + '-'*20 + ' ' + 'Example code' + ' ' + '-'*20 + colorama.Fore.RESET
         _8 = colorama.Fore.LIGHTCYAN_EX + '''
 USD = int(input('Nhập số tiền USD: '))
-VND = USD * 23000
+VND = USD * 22000
 print('Số tiền sau khi chuyển đổi là: ', VND)
         ''' + colorama.Fore.RESET
         _9 = colorama.Fore.LIGHTGREEN_EX + '-'*20 + ' ' + 'Example Input' + ' ' + '-'*20 + colorama.Fore.RESET
@@ -43,7 +43,7 @@ Nhập số tiền USD: 100
         ''' + colorama.Fore.RESET
         _11 = colorama.Fore.LIGHTGREEN_EX + '-'*20 + ' ' + 'Example Output' + ' ' + '-'*20 + colorama.Fore.RESET
         _12 = colorama.Fore.LIGHTCYAN_EX + '''
-Số tiền sau khi chuyển đổi là: 2300000
+Số tiền sau khi chuyển đổi là: 2200000
         ''' + colorama.Fore.RESET
         _13 = colorama.Fore.LIGHTGREEN_EX + '-'*20 + ' ' + 'End of text' + ' ' + '-'*20 + colorama.Fore.RESET
         return '\n'.join([_1,_2,_3,_4,_5,_7,_8,_9,_10,_11,_12,_13])
